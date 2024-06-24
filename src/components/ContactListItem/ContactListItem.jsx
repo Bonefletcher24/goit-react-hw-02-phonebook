@@ -2,7 +2,6 @@ import css from '../ContactListItem/ContactListItem.module.css';
 import PropTypes from 'prop-types';
 
 export const ContactListItem = ({ filteredContact, deleteContact }) => {
-  // handleDelete method
   const handleDelete = () => {
     deleteContact(filteredContact.id);
   };

@@ -9,7 +9,7 @@
     border-radius: 5px;
   }
   
-  .formField {
+  .Field {
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -18,11 +18,11 @@
     font-style: italic;
   }
   
-  .formLabel {
+  .Label {
     font-size: 20px;
   }
   
-  .formButton {
+  .Button {
     width: 100px;
     font-weight: bold;
   }

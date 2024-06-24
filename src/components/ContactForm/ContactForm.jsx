@@ -71,8 +71,8 @@ export class ContactForm extends Component {
 
     return (
       <form className={css.form} onSubmit={this.handleSubmit}>
-        <label className={css.formField}>
-          <p className={css.formLabel}>Name</p>
+        <label className={css.Field}>
+          <p className={css.Label}>Name</p>
           <input
             type="text"
             name="name"
@@ -85,8 +85,8 @@ export class ContactForm extends Component {
           />
         </label>
 
-        <label className={css.formField}>
-          <p className={css.formLabel}>Number</p>
+        <label className={css.Field}>
+          <p className={css.Label}>Number</p>
           <input
             type="tel"
             name="number"
@@ -98,7 +98,7 @@ export class ContactForm extends Component {
             onChange={this.handleNumberChange}
           />
         </label>
-        <button className={css.formButton} type="submit">
+        <button className={css.Button} type="submit">
           Add Contact
         </button>
       </form>
