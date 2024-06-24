@@ -3,4 +3,6 @@
     align-items: center;
     margin-bottom: 10px;
     gap: 30px;
+    color: green;
+    font-weight: bold;
   }
