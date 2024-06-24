@@ -1,17 +1,19 @@
 .form {
-    width: 400px;
+    width: 300px;
     padding: 8px;
     border: 1px solid #2a2a2a;
     display: flex;
     flex-direction: column;
     gap: 12px;
     margin: 30px 0;
+    border-radius: 10px;
   }
   
   .formField {
     width: 200px;
     display: flex;
     flex-direction: column;
+    color: red;
   }
   
   .formLabel {
@@ -20,4 +22,5 @@
   
   .formButton {
     width: 100px;
+    font-weight: bold;
   }

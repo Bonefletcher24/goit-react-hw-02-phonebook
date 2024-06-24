@@ -1,4 +1,4 @@
-import { ContactListItem } from 'components/ContactListItem/ContactListItem';
+import { ContactListItem } from '../ContactListItem/ContactListItem';
 import PropTypes from 'prop-types';
 
 export const ContactList = ({ filterContact, deleteContact }) => {

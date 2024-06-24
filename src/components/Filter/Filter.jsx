@@ -2,7 +2,7 @@ import css from '../Filter/Filter.module.css';
 import PropTypes from 'prop-types';
 
 export const Filter = ({ filter, setFilter }) => {
-  //filter name based on the the search keyword
+  //имя фильтра на основе ключевого слова поиска
   const handleFilterChange = e => {
     setFilter(e.target.value);
   };
